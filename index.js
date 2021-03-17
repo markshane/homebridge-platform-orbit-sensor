@@ -5,8 +5,8 @@ module.exports = (homebridge) => {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
   UUIDGen = homebridge.hap.uuid;
-  PluginName = 'homebridge-platform-orbit';
-  PlatformName = 'orbit';
+  PluginName = 'homebridge-platform-orbit-sensors';
+  PlatformName = 'orbit-sensors';
   
   homebridge.registerPlatform(PluginName, PlatformName, PlatformOrbit, true);
 };

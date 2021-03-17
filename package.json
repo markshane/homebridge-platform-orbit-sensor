@@ -1,7 +1,7 @@
 {
   "name": "homebridge-platform-orbit",
   "version": "1.4.5",
-  "description": "Orbit Irrigation System platform plugin for [HomeBridge](https://github.com/nfarina/homebridge).",
+  "description": "Orbit Flood Sensor System platform plugin for [HomeBridge](https://github.com/nfarina/homebridge).",
   "main": "index.js",
   "dependencies": {
     "bent": "^7.3.0",
@@ -24,9 +24,10 @@
     "homekit",
     "orbit",
     "bhyve",
-    "irrigation"
+    "sensor",
+    "flood"
   ],
-  "author": "James Carvosso",
+  "author": "Mark Shane",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MortJC/homebridge-platform-orbit/issues"

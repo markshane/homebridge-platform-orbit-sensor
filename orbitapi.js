@@ -61,6 +61,11 @@ class OrbitAPI {
 
                     devices.push(device);
                 }
+                else {
+                    this.log.debug("Type: ", result['type']);
+                    this.log.debug("Name: ", result['name']);
+                    this.log.debug("Id: ", result['id']);
+                }
             }.bind(this));
             return devices;
         } catch (error) {
