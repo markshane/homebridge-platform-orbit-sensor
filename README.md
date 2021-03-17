@@ -1,4 +1,4 @@
-# homebridge-platform-orbit
+# homebridge-platform-orbit-sensor
 Orbit Flood Sensor System platform plugin for [HomeBridge](https://github.com/nfarina/homebridge).
 
 ## Installation
