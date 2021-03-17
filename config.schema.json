@@ -1,5 +1,5 @@
 {
-    "pluginAlias": "orbit",
+    "pluginAlias": "orbit-sensor",
     "pluginType": "platform",
     "schema": {
         "type": "object",
@@ -7,7 +7,7 @@
             "name": {
                 "title": "Name",
                 "type": "string",
-                "default": "orbit",
+                "default": "orbit-sensor",
                 "required": true
             },
             "email": {
